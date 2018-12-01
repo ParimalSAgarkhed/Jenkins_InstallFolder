@@ -1,0 +1,8 @@
+2018-12-01 19:21:36,372 INFO  - Starting ServiceWrapper in the service mode
+2018-12-01 19:21:36,438 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2018-12-01 19:21:36,451 INFO  - Extension loaded: killOnStartup
+2018-12-01 19:21:36,456 WARN  - The requested PID file 'C:\Program Files (x86)\Jenkins\jenkins.pid' does not exist. The runaway process won't be checked
+2018-12-01 19:21:36,457 INFO  - Starting C:\Program Files (x86)\Jenkins\jre\bin\java -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "C:\Program Files (x86)\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\Program Files (x86)\Jenkins\war"
+2018-12-01 19:21:36,574 INFO  - Started process 26532
+2018-12-01 19:21:36,585 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2018-12-01 19:21:36,588 INFO  - Recording PID of the started process:26532. PID file destination is C:\Program Files (x86)\Jenkins\jenkins.pid

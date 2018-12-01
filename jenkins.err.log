@@ -1,0 +1,80 @@
+Dec 01, 2018 7:21:38 PM org.eclipse.jetty.util.log.Log initialized
+INFO: Logging initialized @1337ms to org.eclipse.jetty.util.log.JavaUtilLog
+Dec 01, 2018 7:21:38 PM winstone.Logger logInternal
+INFO: Beginning extraction from war file
+Dec 01, 2018 7:21:44 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+WARNING: Empty contextPath
+Dec 01, 2018 7:21:44 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-9.4.z-SNAPSHOT, build timestamp: 2017-11-22T02:57:37+05:30, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+Dec 01, 2018 7:21:46 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+Dec 01, 2018 7:21:46 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: DefaultSessionIdManager workerName=node0
+Dec 01, 2018 7:21:46 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: No SessionScavenger set, using defaults
+Dec 01, 2018 7:21:46 PM org.eclipse.jetty.server.session.HouseKeeper startScavenging
+INFO: Scavenging every 660000ms
+Dec 01, 2018 7:21:47 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started w.@119c9d2{/,file:///C:/Program%20Files%20(x86)/Jenkins/war/,AVAILABLE}{C:\Program Files (x86)\Jenkins\war}
+Dec 01, 2018 7:21:47 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@715e84{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+Dec 01, 2018 7:21:47 PM org.eclipse.jetty.server.Server doStart
+INFO: Started @9961ms
+Dec 01, 2018 7:21:47 PM winstone.Logger logInternal
+INFO: Winstone Servlet Engine v4.0 running: controlPort=disabled
+Dec 01, 2018 7:21:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+Dec 01, 2018 7:21:50 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+Dec 01, 2018 7:21:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+Dec 01, 2018 7:21:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+Dec 01, 2018 7:21:52 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+Dec 01, 2018 7:21:54 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+Dec 01, 2018 7:21:55 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Started Download metadata
+Dec 01, 2018 7:21:56 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@34f59f: display name [Root WebApplicationContext]; startup date [Sat Dec 01 19:21:56 IST 2018]; root of context hierarchy
+Dec 01, 2018 7:21:56 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@34f59f]: org.springframework.beans.factory.support.DefaultListableBeanFactory@137591
+Dec 01, 2018 7:21:56 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@137591: defining beans [authenticationManager]; root of factory hierarchy
+Dec 01, 2018 7:21:56 PM org.springframework.context.support.AbstractApplicationContext prepareRefresh
+INFO: Refreshing org.springframework.web.context.support.StaticWebApplicationContext@39a2b7: display name [Root WebApplicationContext]; startup date [Sat Dec 01 19:21:56 IST 2018]; root of context hierarchy
+Dec 01, 2018 7:21:56 PM org.springframework.context.support.AbstractApplicationContext obtainFreshBeanFactory
+INFO: Bean factory for application context [org.springframework.web.context.support.StaticWebApplicationContext@39a2b7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@7e3fe6
+Dec 01, 2018 7:21:56 PM org.springframework.beans.factory.support.DefaultListableBeanFactory preInstantiateSingletons
+INFO: Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e3fe6: defining beans [filter,legacy]; root of factory hierarchy
+Dec 01, 2018 7:21:57 PM jenkins.install.SetupWizard init
+INFO: 
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Jenkins initial setup is required. An admin user has been created and a password generated.
+Please use the following password to proceed to installation:
+
+dcb4750fc4484d4ba32b78c7ba31a6f1
+
+This may also be found at: C:\Program Files (x86)\Jenkins\secrets\initialAdminPassword
+
+*************************************************************
+*************************************************************
+*************************************************************
+
+Dec 01, 2018 7:22:07 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 01, 2018 7:22:09 PM hudson.model.DownloadService$Downloadable load
+INFO: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+Dec 01, 2018 7:22:09 PM hudson.model.AsyncPeriodicWork$1 run
+INFO: Finished Download metadata. 13,410 ms
+Dec 01, 2018 7:22:11 PM hudson.model.UpdateSite updateData
+INFO: Obtained the latest update center data file for UpdateSource default
+Dec 01, 2018 7:22:11 PM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+Dec 01, 2018 7:22:11 PM hudson.WebAppMain$3 run
+INFO: Jenkins is fully up and running
